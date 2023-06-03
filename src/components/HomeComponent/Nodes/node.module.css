@@ -1,0 +1,4 @@
+.react_flow_node:hover,
+.react_flow_node:focus-within {
+	border: 2px solid #000;
+}

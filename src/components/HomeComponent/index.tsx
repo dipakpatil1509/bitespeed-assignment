@@ -9,11 +9,11 @@ function HomeComponent({}: Props) {
 	return (
 		<div className="h-screen w-full">
 			<TopHeader />
-			<div className="flex flex-wrap h-[calc(100vh-70px)]">
+			<div className="flex flex-wrap h-[calc(100vh-60px)]">
 				<div className="w-4/5 flex">
 					<Flow />
 				</div>
-				<div className="w-1/5 border-l shadow-md ">
+				<div className="w-1/5 border-l shadow-md bg-white">
 					<Panels />
 				</div>
 			</div>
